@@ -16,10 +16,11 @@ from pptx.dml.color import ColorFormat, RGBColor
 PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
 
 PATH_TEMPLATE = PATH_PASTA +  "\\template_ncmr.pptx"
-print(PATH_TEMPLATE)
+# print(PATH_TEMPLATE)
 PATH_IMAGENS = PATH_PASTA + "\\arquivos\\"
-print(PATH_IMAGENS)
+# print(PATH_IMAGENS)
 PATH_PLANILHA = PATH_PASTA + "\\banco_de_dados.xlsm"
+# print(PATH_PLANILHA)
 
 def left(string, n):
     """ Retorna a parte à esquerda de uma string, ou seja, o seu começo. O seu funcionamento é igual ao da função de mesmo nome do Excel.
