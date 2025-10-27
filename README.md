@@ -7,7 +7,7 @@
 
 📋The spreadsheet:   
 📋A planilha:
-<!--![alt-text](./readme_images/planilha1.png)--> 
+![alt-text](./readme_images/planilha1.png)
 <img width="1812" height="306" alt="planilha1" src="https://github.com/user-attachments/assets/897f3d12-41ac-4903-9c55-1cb04a4ab39d" />
 
 
