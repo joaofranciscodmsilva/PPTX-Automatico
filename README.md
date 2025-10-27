@@ -7,19 +7,19 @@
 
 📋The spreadsheet:   
 📋A planilha:
-![alt-text](./readme_images/planilha1.png)
+![alt-text](/readme_images/planilha1.png)
 
 ⚠️After the button is pressed, a confirmation message is shown:    
 ⚠️Depois de apertar o botão, uma mensagem de confirmação é exibida:
-![alt-text](./readme_images/planilha2.png)
+![alt-text](/readme_images/planilha2.png)
 
 🔃Some progress messages, shown during the script execution:    
 🔃Algumas mensagens de progresso, exibidas durante a execução do script:
-![alt-text](./readme_images/executando.png)
+![alt-text](/readme_images/executando.png)
 
 ✅The finished pptx file created:    
 ✅O arquivo pptx final criado:
-![alt-text](./readme_images/powerpoint.png)
+![alt-text](/readme_images/powerpoint.png)
 
 📂The added pictures are in a folder associated with the row code. The final pptx file is saved in this same folder.  
 📂As figuras adicionadas estão em uma pasta associada ao código da linha. O arquivo pptx final é salvo nessa mesma pasta.
