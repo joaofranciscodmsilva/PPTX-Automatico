@@ -1,4 +1,4 @@
-from pptx import Presentation
+from pptx import Presentation #pip install python-pptx
 from pptx.dml.color import RGBColor
 from pptx.enum.dml import MSO_THEME_COLOR
 from pptx.util import Pt
@@ -6,7 +6,7 @@ from pathlib import Path
 import sys
 import os
 import time
-import xlwings as xw
+import xlwings as xw #pip install xlwings
 from datetime import datetime
 from pptx.enum.text import PP_ALIGN
 import string
