@@ -60,3 +60,4 @@
 <!-- ![Slide Masters](readme_images/slide_master.png) -->
 <img width="959" height="506" alt="slide_master" src="https://github.com/user-attachments/assets/ab452d3f-f8ff-4d58-bf5b-257438a8134a" />
 
+## Implementation / Implementação
