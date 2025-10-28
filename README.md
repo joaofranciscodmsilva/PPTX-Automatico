@@ -37,6 +37,14 @@
 
 ### The spreadsheet / A planilha ('banco_de_dados.xlsm')
 
+🔢The spreadsheet executes the Python script from a button. This button is configured in VBA code, which can be accessed in the spreadsheet by clicking in the Developer tab and then Visual Basic. More documentation and instructions about the configuration of the button can be seen in the comments in the VBA code and in the following links:  
+🔢A planilha executa o script Python a partir de um botão. Esse botão é configurado em código VBA, que pode ser acessado na planilha clicando na aba *Developer* e em *Visual Basic*. Mais documentação e instruções sobre a configuração desse botão pode ser vista nos comentários no código VBA e nos links a seguir:
+
+- [Python and VBA - How to execute a Python script from Excel using VBA](https://pythonandvba.com/blog/how-to-execute-a-python-script-from-excel-using-vba/)
+- [Stack Overflow - Excel VBA pass arguments to Python script](https://stackoverflow.com/questions/63873954/excel-vba-pass-arguments-to-python-script)
+
+![VBA Code](./readme_images/vba.png)
+
 ### The Python script / O script Python ('pptx-automatico.py') 
 
 ### The pptx template / O template pptx ('template_ncmr.pptx')
@@ -47,7 +55,7 @@
 🎞️These slide masters and slide layouts contain all the necessary placeholders for the [Python script](#the-python-script--o-script-python-pptx-automaticopy) to insert the data that is contained in the [spreadsheet](#the-spreadsheet--a-planilha-banco_de_dadosxlsm). To access the slide master click on View and Slide Master. More information about *placeholders*, *slide masters* and *slide layouts*, access the link: [Documentation about placeholders](https://support.microsoft.com/en-us/office/add-edit-or-remove-a-placeholder-on-a-slide-layout-a8d93d28-66cb-43fd-9f9d-e12d0a7a1f06).  
 🎞️Esses *slide masters* e *slide layouts* contém todos os *placeholders* necessários para que o [script Python](#the-python-script--o-script-python-pptx-automaticopy) faça a inserção dos dados contidos na [planilha](#the-spreadsheet--a-planilha-banco_de_dadosxlsm). Para acessar os *slide masters* clique em *View* e *Slide Master*. Mais informações sobre *placeholders*, *slide masters* e *slide layouts*, acesse o link a seguir: [Documentação sobre placeholders](https://support.microsoft.com/en-us/office/add-edit-or-remove-a-placeholder-on-a-slide-layout-a8d93d28-66cb-43fd-9f9d-e12d0a7a1f06)
 
-![Slide Masters](readme_images/slide_master.png)
+<!-- ![Slide Masters](readme_images/slide_master.png) -->
 
 <img width="959" height="506" alt="slide_master" src="https://github.com/user-attachments/assets/ab452d3f-f8ff-4d58-bf5b-257438a8134a" />
 
