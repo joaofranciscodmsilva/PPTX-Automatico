@@ -46,8 +46,8 @@
 <!-- ![VBA Code](./readme_images/vba.png) -->
 <img width="959" height="505" alt="vba" src="https://github.com/user-attachments/assets/c5d66954-0a7d-4eac-a97b-572fe7d47672" />
 
-
-### The Python script / O script Python ('pptx-automatico.py') 
+🛠️In the future an alteration may be made, so that the button does not execute the Python script but a .exe file, created from this script. This would save time and effort of configuration of Python in computers that don't have it installed.  
+🛠️Futuramente talvez seja feita uma alteração para que o botão não execute o script Python, mas um executável .exe criado a partir desse script. Isso pouparia tempo e esforço de configuração do Python em computadores que não o tem instalado.
 
 ### The pptx template / O template pptx ('template_ncmr.pptx')
 
@@ -60,9 +60,3 @@
 <!-- ![Slide Masters](readme_images/slide_master.png) -->
 <img width="959" height="506" alt="slide_master" src="https://github.com/user-attachments/assets/ab452d3f-f8ff-4d58-bf5b-257438a8134a" />
 
-
-
-
-
-
-## Instalation / Instalação 
