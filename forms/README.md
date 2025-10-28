@@ -34,27 +34,34 @@
 - Selecione o campo “Dados” ou “Data”, na barra à esquerda.  
 ![Figura1](./imgs/Picture1.png)
 <img width="417" height="210" alt="Picture1" src="https://github.com/user-attachments/assets/3934cdd3-95b6-4273-8e30-54fa6ef8937d" />
+ 
 - Clique em “Adicionar dados” ou “Add data”. A tela a seguir será exibida:  
 ![Figura2](./imgs/Picture2.png)
 <img width="439" height="220" alt="Picture2" src="https://github.com/user-attachments/assets/30f1f3b1-c33d-4b90-91cc-97d1d3d70e4f" />
+ 
 - Clique em “Conexões” ou “Connectors” e em Excel Online (Business) e novamente em Excel Online (Business).
 - Uma aba se abrirá a direita. Navegue e busque pela Planilha nessa aba.  
 ![Figura3](./imgs/Picture3.png)
 <img width="458" height="221" alt="Picture3" src="https://github.com/user-attachments/assets/731c133f-b911-4dfe-80c9-0d632582bd77" />
+
 - Quando encontrar a planilha, clique nela, selecione as tabelas que deseja, e clique em Connect.  
 ![Figura4](./imgs/Picture4.png)
 <img width="461" height="221" alt="Picture4" src="https://github.com/user-attachments/assets/8e39f157-f07b-485d-90f0-a03a6434bc1a" />
+
 - Para cada formulário e tabela de exibição, conecte com a base de dados adequada:  
 ![Figura5](./imgs/Picture5.png)
 <img width="991" height="479" alt="Picture5" src="https://github.com/user-attachments/assets/02732c6c-eb94-4f5f-8fb0-39daf7e21032" />
+
  
 ### 4. Power Automate
 - Clique em Power Automate no local indicado na figura a seguir:  
  ![Figura6](./imgs/Picture6.png)
 <img width="1557" height="414" alt="Picture6" src="https://github.com/user-attachments/assets/f78d6e8f-b54b-43d2-9fa6-a1296585b55f" />
+
 - Criar os fluxos.    
 ![Figura7](./imgs/Picture7.png)
 <img width="1556" height="482" alt="Picture7" src="https://github.com/user-attachments/assets/e2ec5dd6-e866-440e-98b6-12ad51b5a0cd" />
+
 - É preciso de um fluxo para criar a pasta e outros para o upload das imagens.
 - O link a seguir dá mais informações para o fluxo de upload das imagens: [Getting A Filename From SharePoint Document Folder and Creating the File In another Folder using PowerApps V2 trigger](https://community.powerplatform.com/forums/thread/details/?threadid=689a6407-9cc8-44d6-ae71-e7b92d82d6f3)
 - Alterar os nomes dos fluxos na configuração “OnSelect” dos botões que os usam (“Continuar”).
