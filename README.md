@@ -43,7 +43,9 @@
 - [Python and VBA - How to execute a Python script from Excel using VBA](https://pythonandvba.com/blog/how-to-execute-a-python-script-from-excel-using-vba/)
 - [Stack Overflow - Excel VBA pass arguments to Python script](https://stackoverflow.com/questions/63873954/excel-vba-pass-arguments-to-python-script)
 
-![VBA Code](./readme_images/vba.png)
+<!-- ![VBA Code](./readme_images/vba.png) -->
+<img width="959" height="505" alt="vba" src="https://github.com/user-attachments/assets/c5d66954-0a7d-4eac-a97b-572fe7d47672" />
+
 
 ### The Python script / O script Python ('pptx-automatico.py') 
 
@@ -56,7 +58,6 @@
 🎞️Esses *slide masters* e *slide layouts* contém todos os *placeholders* necessários para que o [script Python](#the-python-script--o-script-python-pptx-automaticopy) faça a inserção dos dados contidos na [planilha](#the-spreadsheet--a-planilha-banco_de_dadosxlsm). Para acessar os *slide masters* clique em *View* e *Slide Master*. Mais informações sobre *placeholders*, *slide masters* e *slide layouts*, acesse o link a seguir: [Documentação sobre placeholders](https://support.microsoft.com/en-us/office/add-edit-or-remove-a-placeholder-on-a-slide-layout-a8d93d28-66cb-43fd-9f9d-e12d0a7a1f06)
 
 <!-- ![Slide Masters](readme_images/slide_master.png) -->
-
 <img width="959" height="506" alt="slide_master" src="https://github.com/user-attachments/assets/ab452d3f-f8ff-4d58-bf5b-257438a8134a" />
 
 
