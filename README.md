@@ -7,26 +7,26 @@
 
 📋The spreadsheet:   
 📋A planilha:
-<!-- ![The spreadsheet](./images/readme/planilha1.png) -->
+<!-- ![The spreadsheet](./imgs/readme_planilha1.png) -->
 <img width="1812" height="306" alt="planilha1" src="https://github.com/user-attachments/assets/897f3d12-41ac-4903-9c55-1cb04a4ab39d" /> 
 
 
 ⚠️After the button is pressed, a confirmation message is shown:    
 ⚠️Depois de apertar o botão, uma mensagem de confirmação é exibida:
-<!-- ![Spreadsheet message(./images/readme/planilha2.png) -->
+<!-- ![Spreadsheet message(./imgs/readme_planilha2.png) -->
 <img width="1813" height="455" alt="planilha2" src="https://github.com/user-attachments/assets/357b3109-26e3-4f13-b57b-7667076544f7" />
 
 
 🔃Some progress messages, shown during the script execution:    
 🔃Algumas mensagens de progresso, exibidas durante a execução do script:
 
-<!-- ![Executing script](./images/readme/executando.png) -->
+<!-- ![Executing script](./imgs/readme_executando.png) -->
 <img width="1722" height="370" alt="executando" src="https://github.com/user-attachments/assets/183d1ede-9a48-40d3-adb4-53f4f71277e1" />
 
 
 ✅The finished pptx file created:    
 ✅O arquivo pptx final criado:
-<!-- ![Finished pptx](./images/readme/powerpoint.png) -->
+<!-- ![Finished pptx](./imgs/readme_powerpoint.png) -->
 <img width="1919" height="991" alt="powerpoint" src="https://github.com/user-attachments/assets/e0c69bb3-9ef0-4d12-8cb8-96641a893753" />
 
 
@@ -43,7 +43,7 @@
 - [Python and VBA - How to execute a Python script from Excel using VBA](https://pythonandvba.com/blog/how-to-execute-a-python-script-from-excel-using-vba/)
 - [Stack Overflow - Excel VBA pass arguments to Python script](https://stackoverflow.com/questions/63873954/excel-vba-pass-arguments-to-python-script)
 
-<!-- ![VBA Code](./images/readme/vba.png) -->
+<!-- ![VBA Code](./imgs/readme_vba.png) -->
 <img width="959" height="505" alt="vba" src="https://github.com/user-attachments/assets/c5d66954-0a7d-4eac-a97b-572fe7d47672" />
 
 🛠️In the future an alteration may be made, so that the button does not execute the Python script but a .exe file, created from this script. This would save time and effort of configuration of Python in computers that don't have it installed.  

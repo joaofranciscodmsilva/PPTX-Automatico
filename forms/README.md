@@ -32,22 +32,22 @@
 ### 3. Conectar o App a planilha 
 - Abra o App	
 - Selecione o campo “Dados” ou “Data”, na barra à esquerda.  
-![Figura1](../images/implementacao/Picture1.png)
+![Figura1](./imgs/Picture1.png)
 - Clique em “Adicionar dados” ou “Add data”. A tela a seguir será exibida:  
-![Figura2](../images/implementacao/Picture2.png)
+![Figura2](./imgs/Picture2.png)
 - Clique em “Conexões” ou “Connectors” e em Excel Online (Business) e novamente em Excel Online (Business).
 - Uma aba se abrirá a direita. Navegue e busque pela Planilha nessa aba.  
-![Figura3](../images/implementacao/Picture3.png)
+![Figura3](./imgs/Picture3.png)
 - Quando encontrar a planilha, clique nela, selecione as tabelas que deseja, e clique em Connect.  
-![Figura4](../images/implementacao/Picture4.png)
+![Figura4](./imgs/Picture4.png)
 - Para cada formulário e tabela de exibição, conecte com a base de dados adequada:  
-![Figura5](../images/implementacao/Picture5.png)
+![Figura5](./imgs/Picture5.png)
  
 ### 4. Power Automate
 - Clique em Power Automate no local indicado na figura a seguir:  
- ![Figura6](../images/implementacao/Picture6.png)
+ ![Figura6](./imgs/Picture6.png)
 - Criar os fluxos.    
-![Figura7](../images/implementacao/Picture7.png)
+![Figura7](./imgs/Picture7.png)
 - É preciso de um fluxo para criar a pasta e outros para o upload das imagens.
 - O link a seguir dá mais informações para o fluxo de upload das imagens: [Getting A Filename From SharePoint Document Folder and Creating the File In another Folder using PowerApps V2 trigger](https://community.powerplatform.com/forums/thread/details/?threadid=689a6407-9cc8-44d6-ae71-e7b92d82d6f3)
 - Alterar os nomes dos fluxos na configuração “OnSelect” dos botões que os usam (“Continuar”).
