@@ -46,6 +46,9 @@
 <!-- ![VBA Code](./imgs/readme_vba.png) -->
 <img width="959" height="505" alt="vba" src="https://github.com/user-attachments/assets/c5d66954-0a7d-4eac-a97b-572fe7d47672" />
 
+🗂️The VBA script accesses the Python file and the .venv through their relative paths within the folder they are located, working with locla files and files synchronized with the cloud (such as Sharepoint or OneDrive). So, it is important that the files relative locations are not modified. So that the relative path could be used even in shared folders in Sharepoint, the following solution was used: [Excel's fullname property with OneDrive - Universal Solution](https://stackoverflow.com/a/73577057/12287457).  
+🗂️O script VBA acessa o arquivo Python e a .venv através do caminho relativo dentro da pasta que eles se localizam, funcionando em arquivos locais e em arquivos sincronizados com a nuvem (como em Sharepoint ou OneDrive). Portanto, é importante que as localizações relativas dos arquivos não sejam modificadas. Para que o caminho relativo pudesse ser usado mesmo em pastas compartilhadas em Sharepoint, foi usada a seguinte solução: [Excel's fullname property with OneDrive - Universal Solution](https://stackoverflow.com/a/73577057/12287457).
+
 🛠️In the future an alteration may be made, so that the button does not execute the Python script but a .exe file, created from this script. This would save time and effort of configuration of Python in computers that don't have it installed.  
 🛠️Futuramente talvez seja feita uma alteração para que o botão não execute o script Python, mas um executável .exe criado a partir desse script. Isso pouparia tempo e esforço de configuração do Python em computadores que não o tem instalado.
 
