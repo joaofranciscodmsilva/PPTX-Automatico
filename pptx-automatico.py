@@ -1,19 +1,19 @@
 from pptx import Presentation #pip install python-pptx
 from pptx.dml.color import RGBColor
-from pptx.enum.dml import MSO_THEME_COLOR
-from pptx.util import Pt
-from pathlib import Path
 import sys
 import os
 import time
 import xlwings as xw #pip install xlwings
 from datetime import datetime
 from pptx.enum.text import PP_ALIGN
-import string
-from pptx.dml.color import ColorFormat, RGBColor
+from pptx.dml.color import RGBColor
 
+if getattr(sys, 'frozen', False):
+    PATH_PASTA = os.path.dirname(sys.executable)
+else:
+    PATH_PASTA = os.path.dirname(__file__)
 
-PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
+# PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
 print(PATH_PASTA)
 PATH_TEMPLATE = PATH_PASTA +  "\\template_ncmr.pptx"
 # print(PATH_TEMPLATE)
@@ -358,31 +358,27 @@ else:
     print("Programa executado sem interação do Excel. Será acessada a primeira linha da tabela.")
     posicao="$A$8"
 
-
 print("Acessando a planilha...")
 wb = xw.Book(PATH_PLANILHA)
 sheet = wb.sheets['ncmr']
 tabela = sheet.tables('ncmr')
-
 print("Extraindo as informações...")
 dados = get_data(sheet, tabela, posicao)
-
 path_4block = PATH_IMAGENS+dados["PowerAppsId"].strip()+"\\"
-
 salvar=True
 for file in os.listdir(path_4block):
     if file.startswith(dados["cod_reliance"]) and file.endswith(".pptx"):
         salvar = False
         print("Four-Block já existe.")
         break
-        
+      
 if salvar:
     print("Criando o Four-Block...")
     prs = Presentation(PATH_TEMPLATE)
     four_block(prs, dados)
     four_block(prs, dados, "English")
     #time.sleep(5)
-    
+  
     if dados["cod_reliance"] == " ":
         prs.save(path_4block + "NCMR-0000-000000 - PN " + dados["part_number"] + ' - ' + dados["descricao_part"] + ".pptx")
         print("\tFour-Block criado.")
@@ -396,5 +392,4 @@ if salvar:
 else:
     print("\tAbrindo o Four-Block...")
     os.startfile(path_4block + dados["cod_reliance"] + " - PN " + dados["part_number"] + ' - ' + dados["descricao_part"] + ".pptx")
-
 time.sleep(5)
