@@ -14,7 +14,7 @@ from pptx.dml.color import ColorFormat, RGBColor
 
 
 PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
-
+print(PATH_PASTA)
 PATH_TEMPLATE = PATH_PASTA +  "\\template_ncmr.pptx"
 # print(PATH_TEMPLATE)
 PATH_IMAGENS = PATH_PASTA + "\\arquivos\\"
