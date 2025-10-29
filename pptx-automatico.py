@@ -13,8 +13,14 @@ import string
 from pptx.dml.color import ColorFormat, RGBColor
 
 
-PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
+# determine if application is a script file or frozen exe
+if getattr(sys, 'frozen', False):
+    PATH_PASTA = os.path.dirname(os.path.abspath(sys.executable))
+elif __file__:
+    PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
 
+# PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
+print(PATH_PASTA)
 PATH_TEMPLATE = PATH_PASTA +  "\\template_ncmr.pptx"
 # print(PATH_TEMPLATE)
 PATH_IMAGENS = PATH_PASTA + "\\arquivos\\"

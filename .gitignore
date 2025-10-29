@@ -1,1 +1,4 @@
 *.pptx
+*.spec
+*build*
+*dist*
