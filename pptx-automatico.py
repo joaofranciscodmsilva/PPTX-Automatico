@@ -1,16 +1,12 @@
 from pptx import Presentation #pip install python-pptx
 from pptx.dml.color import RGBColor
-from pptx.enum.dml import MSO_THEME_COLOR
-from pptx.util import Pt
-from pathlib import Path
 import sys
 import os
 import time
 import xlwings as xw #pip install xlwings
 from datetime import datetime
 from pptx.enum.text import PP_ALIGN
-import string
-from pptx.dml.color import ColorFormat, RGBColor
+from pptx.dml.color import RGBColor
 
 
 # determine if application is a script file or frozen exe
@@ -20,7 +16,7 @@ elif __file__:
     PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
 
 # PATH_PASTA = os.path.dirname(os.path.abspath(__file__))
-print(PATH_PASTA)
+print("Caminho da pasta: " + PATH_PASTA)
 PATH_TEMPLATE = PATH_PASTA +  "\\template_ncmr.pptx"
 # print(PATH_TEMPLATE)
 PATH_IMAGENS = PATH_PASTA + "\\arquivos\\"
