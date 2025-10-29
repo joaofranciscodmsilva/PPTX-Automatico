@@ -9,6 +9,20 @@ from pptx.enum.text import PP_ALIGN
 from pptx.dml.color import RGBColor
 
 
+# O programa funciona nos seguintes cenários:
+# - .exe na pasta local
+# - Excel na pasta local
+# - .exe na pasta do Sharepoint
+
+# Não funciona:
+# - Excel na pasta do Sharepoint 
+
+# Ideias:
+# - Não abrir o Excel
+# - O problema pode estar na definição do PATH_PASTA
+# - É preciso entender melhor a questão das variáveis da planilha: https://docs.xlwings.org/en/latest/onedrive_sharepoint.html#onedrive-sharepoint
+
+
 # determine if application is a script file or frozen exe
 if getattr(sys, 'frozen', False):
     PATH_PASTA = os.path.dirname(os.path.abspath(sys.executable))
