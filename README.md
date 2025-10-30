@@ -1,8 +1,8 @@
 # PPTX-Automatico
 
 ## Description / Descrição
-ℹ️This solution creates a fully formatted Microsoft Power Point presentation from a row of data in a Microsoft Excel spreadsheet. A Python script using the xlwings and python-pptx libraries does the heavy lifting and the script can be executed from the terminal or can be called from a button in the spreadsheet.  
-ℹ️Esta solução cria uma apresentação de Microsoft Power Point completamente formatada a partir de uma linha de dados em uma planilha Microsoft Excel. Um script Python usando as biblioteca xlwings e python-pptx faz o trabalho pesado e o script pode ser executado a partir do terminal ou de um botão na planilha.
+ℹ️This solution creates a fully formatted Microsoft Power Point presentation from a row of data in a Microsoft Excel spreadsheet. An executable .exe file that can be executed by itself or from a button in the spreadsheet does the heavy lifting. This executable file was created through the library pyinstaller from a Python script that uses the [xlwings](https://www.xlwings.org/) and [python-pptx](https://python-pptx.readthedocs.io/en/latest/) libraries to do what is needed.  
+ℹ️Esta solução cria uma apresentação de Microsoft Power Point completamente formatada a partir de uma linha de dados em uma planilha Microsoft Excel. Um arquivo executável .exe, que pode ser executado sozinho ou a partir de um botão na planilha faz o trabalho pesado. Esse executável foi criado através da biblioteca [pyinstaller](https://pyinstaller.org/en/stable/) a partir de um script Python que usa as bibliotecas [xlwings](https://www.xlwings.org/) e [python-pptx](https://python-pptx.readthedocs.io/en/latest/) para fazer tudo que se deseja.
 
 
 📋The spreadsheet:   
@@ -37,8 +37,8 @@
 
 ### The spreadsheet / A planilha ('banco_de_dados.xlsm')
 
-🔢The spreadsheet executes the Python script from a button. This button is configured in VBA code, which can be accessed in the spreadsheet by clicking in the Developer tab and then Visual Basic. More documentation and instructions about the configuration of the button can be seen in the comments in the VBA code and in the following links:  
-🔢A planilha executa o script Python a partir de um botão. Esse botão é configurado em código VBA, que pode ser acessado na planilha clicando na aba *Developer* e em *Visual Basic*. Mais documentação e instruções sobre a configuração desse botão pode ser vista nos comentários no código VBA e nos links a seguir:
+🔢The spreadsheet executes the .exe file from a button. This button is configured in VBA code, which can be accessed in the spreadsheet by clicking in the Developer tab and then Visual Basic. More documentation and instructions about the configuration of the button can be seen in the comments in the VBA code and in the following links:  
+🔢A planilha executa o arquivo .exe a partir de um botão. Esse botão é configurado em código VBA, que pode ser acessado na planilha clicando na aba *Developer* e em *Visual Basic*. Mais documentação e instruções sobre a configuração desse botão pode ser vista nos comentários no código VBA e nos links a seguir:
 
 - [Python and VBA - How to execute a Python script from Excel using VBA](https://pythonandvba.com/blog/how-to-execute-a-python-script-from-excel-using-vba/)
 - [Stack Overflow - Excel VBA pass arguments to Python script](https://stackoverflow.com/questions/63873954/excel-vba-pass-arguments-to-python-script)
@@ -46,11 +46,19 @@
 <!-- ![VBA Code](./imgs/readme_vba.png) -->
 <img width="959" height="389" alt="readme_vba" src="https://github.com/user-attachments/assets/689bdf51-597b-47c9-96b4-340afa248914" />
 
-🗂️The VBA script accesses the Python file and the .venv through their relative paths within the folder they are located, working with locla files and files synchronized with the cloud (such as Sharepoint or OneDrive). So, it is important that the files relative locations are not modified. So that the relative path could be used even in shared folders in Sharepoint, the following solution was used: [Excel's fullname property with OneDrive - Universal Solution](https://stackoverflow.com/a/73577057/12287457).  
-🗂️O script VBA acessa o arquivo Python e a .venv através do caminho relativo dentro da pasta que eles se localizam, funcionando em arquivos locais e em arquivos sincronizados com a nuvem (como em Sharepoint ou OneDrive). Portanto, é importante que as localizações relativas dos arquivos não sejam modificadas. Para que o caminho relativo pudesse ser usado mesmo em pastas compartilhadas em Sharepoint, foi usada a seguinte solução: [Excel's fullname property with OneDrive - Universal Solution](https://stackoverflow.com/a/73577057/12287457).
+🗂️The VBA script accesses the .exe file through its relative path within the folder they are located, working with local files and files synchronized with the cloud (such as Sharepoint or OneDrive), so, it is important that the files relative locations are not modified. In order for the relative path be used even in shared folders in Sharepoint, the following solution was used: [Excel's fullname property with OneDrive - Universal Solution](https://stackoverflow.com/a/73577057/12287457).  
+🗂️O script VBA acessa o arquivo .exe através do caminho relativo dentro da pasta que eles se localizam, funcionando em arquivos locais e em arquivos sincronizados com a nuvem (como em Sharepoint ou OneDrive), portanto, é importante que as localizações relativas dos arquivos não sejam modificadas. Para que o caminho relativo pudesse ser usado mesmo em pastas compartilhadas em Sharepoint, foi usada a seguinte solução: [Excel's fullname property with OneDrive - Universal Solution](https://stackoverflow.com/a/73577057/12287457).
 
-🛠️In the future an alteration may be made, so that the button does not execute the Python script but a .exe file, created from this script. This would save time and effort of configuration of Python in computers that don't have it installed.  
-🛠️Futuramente talvez seja feita uma alteração para que o botão não execute o script Python, mas um executável .exe criado a partir desse script. Isso pouparia tempo e esforço de configuração do Python em computadores que não o tem instalado.
+
+### The executable file / O arquivo executável 
+
+💾Initially, the VBA code worked executing a version of Python in a .venv and then the Python script itself. So that implementation can be simpler in new computers, even those without Python and the needed libraries installed, the new version utilizes an executable file created with the library [pyinstaller](https://pyinstaller.org/en/stable/) and the following command:  
+💾Inicialmente, o código VBA funcionava executando uma versão do Python em uma .venv, e em seguida o próprio script Python. Para que fosse mais simples a implementação em novos computadores, mesmo sem o Python e as bibliotecas necessárias, a versão mais recente utiliza um arquivo executável criado por meio da biblioteca [pyinstaller](https://pyinstaller.org/en/stable/) e o seguinte comando:
+
+> pip install pyinstaller  
+> pyinstaller --onefile pptx-automatico.py
+
+
 
 ### The pptx template / O template pptx ('template_ncmr.pptx')
 
@@ -62,3 +70,5 @@
 
 <!-- ![Slide Masters](images/readme/slide_master.png) -->
 <img width="959" height="506" alt="slide_master" src="https://github.com/user-attachments/assets/ab452d3f-f8ff-4d58-bf5b-257438a8134a" />
+
+## Implementation / Implementação
