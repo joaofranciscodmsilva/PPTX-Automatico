@@ -72,3 +72,32 @@
 <img width="959" height="506" alt="slide_master" src="https://github.com/user-attachments/assets/ab452d3f-f8ff-4d58-bf5b-257438a8134a" />
 
 ## Implementation / Implementação
+
+### The folder / A pasta
+
+↗️Open the desired folder in Sharepoint and inside the folder click on "Adicionar atalho ao OneDrive" ou "*Add shortcut to OneDrive*", as shown in the picture below:  
+↗️Abra a pasta desejada no Sharepoint e dentro da pasta clique em "Adicionar atalho ao OneDrive" ou "*Add shortcut to OneDrive*", como mostrado na figura abaixo:
+![Add shortcut to OneDrive](./imgs/readme_shortcut.jpg)
+
+📁This shortcut will be visible in OneDrive also in your local machine in the File Explorer. In the future you will access the solution through this folder shortcut in you File Explorer.  
+📁Este atalho ficará visível no OneDrive também em sua máquina no Explorador de Arquivos. No futuro você acessará a solução através desse atalho para a pasta no seu Explorador de Arquivos.
+
+### The necessary files / Os arquivos necessários
+
+💾In the folder created locally in your computer, copy the following files:  
+- the .xlsm spreadsheet
+- the .exe file
+- the .pptx template
+
+💾Na pasta criada localmente em seu computador, copie os seguintes arquivos a partir deste repositório:  
+- a planilha .xlsm
+- o arquivo .exe
+- o template .pptx
+
+📂You must use the spreadsheet for the recording of your data. Conect it to the form that will perform the collecting of said data. And conect the folder 'arquivos' so it will be the upload location for the images.  
+📂Você deve utilizar esta planilha para o registro de seus dados. Conecte-a com o formulário que fará a coleta desses dados. E conecte a pasta 'arquivos' para que seja o local de upload das imagens.
+
+![O conteúdo da pasta](./imgs/readme_pasta.png)
+
+🏁To use, open the spreadsheet and click the button.  
+🏁Para usar, abra a planilha e clique no botão.
