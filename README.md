@@ -97,7 +97,7 @@
 - o arquivo .exe
 - o template .pptx
 
-📂You must use the spreadsheet for the recording of your data. Conect it to the form that will perform the collecting of said data. And conect the folder 'arquivos' so it will be the upload location for the images.  
+📂You must use the spreadsheet for the recording of your data. Connect it to the form that will perform the collecting of said data. And connect the folder 'arquivos' so it will be the upload location for the images.  
 📂Você deve utilizar esta planilha para o registro de seus dados. Conecte-a com o formulário que fará a coleta desses dados. E conecte a pasta 'arquivos' para que seja o local de upload das imagens.
 
 <!-- ![O conteúdo da pasta](./imgs/readme_pasta.png) -->
