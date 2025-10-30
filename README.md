@@ -77,7 +77,10 @@
 
 ↗️Open the desired folder in Sharepoint and inside the folder click on "Adicionar atalho ao OneDrive" ou "*Add shortcut to OneDrive*", as shown in the picture below:  
 ↗️Abra a pasta desejada no Sharepoint e dentro da pasta clique em "Adicionar atalho ao OneDrive" ou "*Add shortcut to OneDrive*", como mostrado na figura abaixo:
+
 ![Add shortcut to OneDrive](./imgs/readme_shortcut.jpg)
+![readme_shortcut](https://github.com/user-attachments/assets/ca095082-42de-4aaf-84ee-aebf364662c3)
+
 
 📁This shortcut will be visible in OneDrive also in your local machine in the File Explorer. In the future you will access the solution through this folder shortcut in you File Explorer.  
 📁Este atalho ficará visível no OneDrive também em sua máquina no Explorador de Arquivos. No futuro você acessará a solução através desse atalho para a pasta no seu Explorador de Arquivos.
@@ -98,6 +101,8 @@
 📂Você deve utilizar esta planilha para o registro de seus dados. Conecte-a com o formulário que fará a coleta desses dados. E conecte a pasta 'arquivos' para que seja o local de upload das imagens.
 
 ![O conteúdo da pasta](./imgs/readme_pasta.png)
+<img width="223" height="123" alt="readme_pasta" src="https://github.com/user-attachments/assets/d8fd39bb-066d-46f8-9878-9bf4c7d1c405" />
+
 
 🏁To use, open the spreadsheet and click the button.  
 🏁Para usar, abra a planilha e clique no botão.
